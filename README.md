@@ -25,16 +25,20 @@ Short description about the project goes here.
 
 ## Running the Project
 
-1. **Inside the Docker container**:
+1. **Install Composer dependencies**:
+  ```
+  composer install
+  ```
+
+2. **Run database migrations**:
+  ```
+  bin/console d:m:m
+  ```
+
+3. **Import product data**:
 - You need to run the Symfony command to import product data.
   ```
   bin/console import:products
-  ```
-
-2. **Check logs**:
-- To view the logs, you can use the following command to view the logs from the container:
-  ```
-  docker-compose logs -f php-container
   ```
 
 ## Troubleshooting
