@@ -1,0 +1,6 @@
+product_name,quantity,price,description
+Product 1,twenty,10.99,Description for product 1
+Product 2,5,abc,Description for product 2
+,,,
+Product 4,10,20.5,Extra comma at the end,
+Product 5,15,abc,Description for product 5,,Extra empty column at the end
